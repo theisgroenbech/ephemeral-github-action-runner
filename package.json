@@ -1,0 +1,17 @@
+{
+  "name": "ephemeral-github-action-runner",
+  "version": "0.0.1",
+  "description": "A script to spin up a very temporary github action runner. It will stop and remove the runner, when the script is exited",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "author": "Theis Grønbech Petersen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.26",
+    "prettier": "^2.6.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
